@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SDD | SyncBridge Core (Indy-1)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="sidebar">
+    <div class="brand">SyncBridge Core</div>
+    <div class="brand-sub">Indy-1 &middot; CS 4850 &middot; Fall 2026</div>
+    <a href="index.html">Home</a>
+    <a href="srs.html">SRS</a>
+    <a href="sdd.html" class="active">SDD</a>
+    <a href="video.html">Demo Video</a>
+    <a href="https://github.com/SyncBridge-Core/SyncBridge" target="_blank" rel="noopener">GitHub &#8599;</a>
+  </nav>
+  <div class="doc-page">
+    <div class="doc-header">
+      <h1>Software Design Document (SDD)</h1>
+      <div>
+        <a class="button" href="docs/Indy-1-SyncBridge-SDD.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a class="button" href="docs/Indy-1-SyncBridge-SDD.pdf" download>Download</a>
+      </div>
+    </div>
+    <div class="doc-body">
+      <iframe name="viewer" src="docs/Indy-1-SyncBridge-SDD.pdf" title="Software Design Document (SDD)"></iframe>
+      <nav class="toc">
+        <h2>Sections</h2>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=1#page=1" target="viewer">Cover Page<span class="pg">1</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=4#page=4" target="viewer">1.0 Introduction and Overview<span class="pg">4</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=4#page=4" target="viewer">1.1 Purpose<span class="pg">4</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=4#page=4" target="viewer">1.2 Scope<span class="pg">4</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=4#page=4" target="viewer">1.3 Intended Audience<span class="pg">4</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=5#page=5" target="viewer">1.4 Relationship to Other Project Documents<span class="pg">5</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=5#page=5" target="viewer">2.0 Design Considerations<span class="pg">5</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=5#page=5" target="viewer">2.1 Architectural Goals and Drivers<span class="pg">5</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=6#page=6" target="viewer">3.0 Architectural Strategies<span class="pg">6</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=6#page=6" target="viewer">3.1 Architectural Decision Records (ADR)<span class="pg">6</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=7#page=7" target="viewer">3.2 Solution Organization and Dependency Strategy<span class="pg">7</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=7#page=7" target="viewer">3.3 Design Patterns<span class="pg">7</span></a>
+      <a class="lvl3" href="docs/Indy-1-SyncBridge-SDD.pdf?p=9#page=9" target="viewer">Table 3.3-1. GoF Design Pattern Summary<span class="pg">9</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=9#page=9" target="viewer">4.0 System Architecture<span class="pg">9</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=9#page=9" target="viewer">4.1 Overall System Architecture<span class="pg">9</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=10#page=10" target="viewer">4.2 Presentation Layer<span class="pg">10</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=11#page=11" target="viewer">4.3 Application Layer<span class="pg">11</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=11#page=11" target="viewer">4.4 Domain Layer<span class="pg">11</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=11#page=11" target="viewer">4.5 Infrastructure Layer<span class="pg">11</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=11#page=11" target="viewer">5.0 Detailed System Design<span class="pg">11</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=11#page=11" target="viewer">5.1 Domain Design<span class="pg">11</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=12#page=12" target="viewer">5.2 Application Design<span class="pg">12</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=13#page=13" target="viewer">5.3 Workflow Design<span class="pg">13</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=15#page=15" target="viewer">5.4 Infrastructure Design<span class="pg">15</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=16#page=16" target="viewer">6.0 Design Models<span class="pg">16</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=19#page=19" target="viewer">7.0 Prototype Screens<span class="pg">19</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=20#page=20" target="viewer">7.1 Operations Dashboard<span class="pg">20</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=21#page=21" target="viewer">7.2 Batch Execution<span class="pg">21</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=22#page=22" target="viewer">7.3 Deviation Management<span class="pg">22</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=23#page=23" target="viewer">7.4 Electronic Batch Record<span class="pg">23</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=24#page=24" target="viewer">7.5 Reports and Analytics<span class="pg">24</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=24#page=24" target="viewer">8.0 Design Traceability<span class="pg">24</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=25#page=25" target="viewer">8.1 Functional Requirement Traceability<span class="pg">25</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=25#page=25" target="viewer">Table 8.1-1. Functional Requirement Traceability<span class="pg">25</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=26#page=26" target="viewer">8.2 Non-Functional Requirement Traceability<span class="pg">26</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=26#page=26" target="viewer">Table 8.2-1. Non-Functional Requirement Traceability<span class="pg">26</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=26#page=26" target="viewer">8.3 Architecture-to-Implementation Traceability<span class="pg">26</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=26#page=26" target="viewer">Table 8.3-3. Architecture-to-Implementation Traceability<span class="pg">26</span></a>
+      <a class="lvl1" href="docs/Indy-1-SyncBridge-SDD.pdf?p=27#page=27" target="viewer">9.0 Acceptance Criteria and Definition of Done<span class="pg">27</span></a>
+      <a class="lvl2" href="docs/Indy-1-SyncBridge-SDD.pdf?p=28#page=28" target="viewer">Definition of Done<span class="pg">28</span></a>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
